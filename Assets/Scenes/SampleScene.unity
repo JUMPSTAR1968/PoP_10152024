@@ -246,6 +246,7 @@ MonoBehaviour:
   buttonImage: {fileID: 0}
   position: {x: 0, y: 0}
   size: {x: 0, y: 0}
+  labelText: Choose Your Character!
 --- !u!4 &547399683
 Transform:
   m_ObjectHideFlags: 0
