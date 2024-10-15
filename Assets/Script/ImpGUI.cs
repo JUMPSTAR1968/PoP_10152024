@@ -38,12 +38,12 @@ public class ImpGUI : MonoBehaviour
 
         if (GUI.Button(new Rect(50, 300, 200, 150), "Option 2"))
         {
-            text = "Name: Sakura Kasugano \nAttack: 500 \nDefence: 300 \nSpeed: 50 \nLuck: 500 \nIntelligence: 450 \nSpecial: 950";
+            text = $"Name: Sakura Kasugano \nAttack: {attackp2} \nDefence: {defensep2} \nSpeed: {speedp2} \nLuck: {luckp2} \nIntelligence: {intelligencep2} \nSpecial: {specialp2}";
         }
 
         if (GUI.Button(new Rect(50, 500, 200, 150), "Option 3"))
         {
-            text = "Name: Yuffie Kisaragi \nAttack: 300 \nDefence: 100 \nSpeed: 100 \nLuck: 1000 \nIntelligence: 400 \nSpecial: 900";
+            text = $"Name: Yuffie Kisaragi \nAttack: {attackp3} \nDefence: {defensep3} \nSpeed: {speedp3} \nLuck: {luckp3} \nIntelligence: {intelligencep3} \nSpecial: {specialp3}";
         }
     }
 }
